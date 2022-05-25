@@ -96,7 +96,7 @@ class HomeScreen extends State<FlutterOGame> {
                   ? 'You won! Scussesfully'
                   : isWinning(2, tiles)
                       ? 'You lost!, Restart and Play Again'
-                      : 'Your move'),
+                      : 'Play'),
 
               //restart button
               OutlinedButton(
@@ -113,6 +113,7 @@ class HomeScreen extends State<FlutterOGame> {
     );
   }
 
+//Asynchronous operations let your program complete work while waiting for another operation to finish.
   void runAi() async {
     await Future.delayed(Duration(milliseconds: 200));
 
