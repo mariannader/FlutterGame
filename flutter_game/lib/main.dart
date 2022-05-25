@@ -110,9 +110,6 @@ class HomeScreen extends State<FlutterOGame> {
           )
         ],
       ),
-      floatingActionButton: Image(
-        image: AssetImage('assets/images/OrangeLogo.png'),
-      ),
     );
   }
 
